@@ -1,0 +1,19 @@
+{
+  "name": "catbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "nodemon": "nodemon main.js",
+    "main": "node .",
+    "sync": "node ./syncslashcommands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
