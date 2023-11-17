@@ -1,5 +1,5 @@
 const discord = require('discord.js');
-const token = require('./token');
+const secrets = require('./secrets');
 const fs = require('node:fs');
 const path = require('node:path');
 
@@ -62,4 +62,4 @@ for (const file of eventsFiles) {
     }
 };
 
-bot.login(token.token);
+bot.login(secrets.token);
