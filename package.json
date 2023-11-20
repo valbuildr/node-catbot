@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "nodemon": "nodemon main.js",
-    "main": "node .",
+    "main": "node main.js",
     "sync": "node ./syncslashcommands.js"
   },
   "author": "",

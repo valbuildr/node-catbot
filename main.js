@@ -2,8 +2,6 @@ const discord = require("discord.js");
 const secrets = require("./secrets");
 const fs = require("node:fs");
 const path = require("node:path");
-const Parser = require("rss-parser");
-const parser = new Parser();
 
 const bot = new discord.Client({
   intents: [
