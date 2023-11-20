@@ -1,11 +1,11 @@
-const discord = require('discord.js')
+const discord = require("discord.js");
 
 module.exports = {
-    name: "messageUpdate",
-    once: false,
-    async execute(oldMessage, newMessage) {
-        if (newMessage.content.includes('catbot')) {
-            newMessage.react('😊');
-        }
+  name: "messageUpdate",
+  once: false,
+  async execute(oldMessage, newMessage) {
+    if (newMessage.content.includes("catbot")) {
+      newMessage.react("😊");
     }
-}
+  },
+};
