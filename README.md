@@ -1,8 +1,8 @@
 # node-catbot
 
 ## running bot
-create `secrets.json` and put this in it:
-```json
+create `secrets.js` and put this in it:
+```js
 module.exports = {
   token: "your-token-here",
   clientid: "1168518020679868478",
