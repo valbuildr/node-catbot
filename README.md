@@ -1,3 +1,5 @@
+# This repository is NO LONGER MAINTAINED. Please head to the new Bitbucket repository for the latest. 
+
 # node-catbot
 
 ## running bot
